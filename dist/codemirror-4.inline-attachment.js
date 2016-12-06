@@ -1,4 +1,4 @@
-/*! inline-attachment - v2.0.3 - 2016-08-20 */
+/*! inline-attachment - v2.0.3 - 2016-12-06 */
 /*jslint newcap: true */
 /*global XMLHttpRequest: false, FormData: false */
 /*
@@ -146,7 +146,8 @@
       'image/jpeg',
       'image/png',
       'image/jpg',
-      'image/gif'
+      'image/gif',
+      'application/pdf',
     ],
 
     /**

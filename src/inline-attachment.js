@@ -145,7 +145,8 @@
       'image/jpeg',
       'image/png',
       'image/jpg',
-      'image/gif'
+      'image/gif',
+      'application/pdf',
     ],
 
     /**
@@ -159,7 +160,7 @@
      * will be replaced by the urlText, the {filename} tag will be replaced
      * by the filename that has been returned by the server
      */
-    urlText: "![file]({filename})",
+    urlText: "{filename}",
 
     /**
      * Text which will be used when uploading has failed
